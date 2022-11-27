@@ -16,7 +16,7 @@ class SearchPage {
         await this.productItem.$$('.product-item-link').map(async element => {
             itemsActual.push(await element.getText());
         });
-        expect(itemsActual.sort()).to.be.eql(itemsExpected)
+        expect(itemsActual.sort()).to.be.eql(itemsExpected);
     };
 
     async chooseItem(productName) {
