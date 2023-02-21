@@ -1,5 +1,6 @@
 # MagentoShopDemo
 A few test cases for checking the basic functions of Magento Site using WebdriverIO and Faker. 
+
 https://magento.softwaretestingboard.com/
 
 pageobjects - catalog with files containing locators and functionalities
